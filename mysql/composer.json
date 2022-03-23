@@ -1,0 +1,25 @@
+{
+  "name": "langzige/mysql",
+  "description": "mysql导入、导出库",
+  "keywords": [
+    "mysql",
+    "dump",
+    "think",
+    "tp6"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "chenyigz",
+      "email": "chenyigz@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "langzige\\mysql\\": "src/"
+    }
+  }
+}
